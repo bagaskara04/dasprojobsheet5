@@ -18,19 +18,19 @@ public class PemilihanPercobaan210 {
         System.out.println("Nilai akhir = " + total + " Sehingga " + message);
 
         if (total >= 80) {
-            System.out.println("Nilai Huruf A, Kualifikasi Sangat Baik");
+            System.out.println("Nilai Huruf A, Nilai setara 4, Kualifikasi Sangat Baik");
         } else if(total >=73) {
-            System.out.println("Nilai huruf B+, Kualifikasi Lebih dari baik");
+            System.out.println("Nilai huruf B+, Nilai setara 3,5, Kualifikasi Lebih dari baik");
         } else if(total >=65){
-            System.out.println("Nilai huruf B, Kualifikasi Baik");
+            System.out.println("Nilai huruf B, Nilai setara 3, Kualifikasi Baik");
         } else if(total >=60){
-            System.out.println("Nilai huruf C+, Kualifikasi Lebih dari cukup");
+            System.out.println("Nilai huruf C+, Nilai setara 2,5, Kualifikasi Lebih dari cukup");
         } else if(total >=50){
-            System.out.println("Nilai huruf C, Kualifikasi cukup");
+            System.out.println("Nilai huruf C, Nilai setara 2, Kualifikasi cukup");
         } else if(total >=39){
-            System.out.println("Nilai huruf D, Kualifikasi kurang");
+            System.out.println("Nilai huruf D, Nilai setara 1, Kualifikasi kurang");
         } else{
-            System.out.println("Nilai huruf E, Gagal");
+            System.out.println("Nilai huruf E, Nilai setara 0, Gagal");
         }
     }
 }
